@@ -1,7 +1,7 @@
 # Kerberos kserver
 ## @edt ASIX M11-SAD Curs 2018-2019
 
-**kserver** servidor kerberos detach.
+**k19:kserver** servidor kerberos detach.
 
 Servidor kerberos. Aquest servidor crea els principals corresponents als clàssics
 usuaris que tenim també a ldap.
@@ -15,5 +15,5 @@ Les característiques principals són:
 
 Execució:
 ```
-docker run --rm --name kserver.edt.org -h kserver.edt.org --net mynet -d kserver:2019
+docker run --rm --name kserver.edt.org -h kserver.edt.org --net mynet -d k19:kserver
 ```

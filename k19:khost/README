@@ -1,7 +1,7 @@
-# Kerberos kclient
+# Kerberos khost
 ## @edt ASIX M11-SAD Curs 2019-2020
 
-**kclient:2019** host client de kerberos. Simplement amb eines
+**k19:khost** host client de kerberos. Simplement amb eines
   kinit, klist i kdestroy (no pam). El servidor al que contacta s'ha
   de dir *kserver.edt.org*.
   
@@ -16,6 +16,6 @@ per verificar la connexió i obtenir tickets, cal:
 
 Execució:
 ```
-docker run --rm --name kclient.edt.org -h kclient.edt.org --net mynet -d kclient:2019
+docker run --rm --name khost.edt.org -h khost.edt.org --net mynet -d k19:khost
 ```
 
